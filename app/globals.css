@@ -70,7 +70,7 @@ body{
 }
 
 .hero__title {
-  line-height: 6rem;
+  line-height: 5rem;
   @apply 2xl:text-[50px] sm:text-[64px] text-[60px] font-extrabold ;
 }
 
