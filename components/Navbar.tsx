@@ -17,6 +17,7 @@ const Navbar = () => {
               width={300}
               height={18}
               className='object-contain pr-20 mt-5 hover'
+              priority
            />
         </Link>
 
