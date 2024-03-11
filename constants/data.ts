@@ -54,59 +54,67 @@ export const categoryDetails = [
   {
     imgUrl: images.kaftan01,
     title: 'Kaftan',
+    name: 'kaftan'
   },
   {
     imgUrl: images.kaftan02,
     title: 'Kaftan',
+    name: 'kaftan'
   },
   {
     imgUrl: images.kaftan03,
     title: 'Kaftan',
+    name: 'kaftan'
   },
   {
     imgUrl: images.kaftan04,
     title: 'Kaftan',
+    name: 'kaftan'
   },
   {
     imgUrl: images.kaftan05,
     title: 'Kaftan',
+    name: 'kaftan'
   },
   {
     imgUrl: images.suit01,
     title: 'Suits',
+    name: 'suits'
   },
   {
     imgUrl: images.suit02,
     title: 'Suits',
+    name: 'suits'
   },
   {
     imgUrl: images.suit03,
     title: 'Suits',
+    name: 'suits'
   },
   {
     imgUrl: images.cop1,
     title: 'Coporate Wear',
-    subtitle: 'Exquisite kaftans',
+    name: 'coporate Branding'
   },
   {
     imgUrl: images.cop2,
     title: 'Coporate Wear',
-    subtitle: 'Exquisite kaftans',
+    name: 'coporate Branding'
   },
   {
     imgUrl: images.cop3,
     title: 'Coporate Wear',
-    subtitle: 'Exquisite kaftans',
+    name: 'coporate Branding'
   },
   {
     imgUrl: images.cop4,
     title: 'Coporate Wear',
-    subtitle: 'Exquisite kaftans',
+    name: 'coporate Branding'
   },
   {
     imgUrl: images.cop5,
     title: 'Coporate Wear',
-    subtitle: 'Exquisite kaftans',
+    name: 'coporate Branding'
   },
 ];
 
@@ -130,7 +138,7 @@ export const footerLinks = [
   {
     title: "Socials",
     links: [
-      { title: "X", url: "http://x.com/Veeclothingcomp" },
+      { title: "X", url: "" },
       { title: "Instagram", url: "/" },
       { title: "Twitter", url: "/" },
       { title: "LinkedIn", url: "/" },

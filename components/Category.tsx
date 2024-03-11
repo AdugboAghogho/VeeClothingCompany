@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Category.css'
 import Image from 'next/image';
-import { cards, categorys } from '@/constants/data';
+import { cards } from '@/constants/data';
 import CustomButton from './CustomButton';
 import CategoryDetails from './CategoryDetails';
 
@@ -38,12 +38,14 @@ const Category = () => {
                 containerStyles='bg-primary-blue text-white rounded-full left-[15px] mt-12  h-[50px] w-[270px] tracking-[6px]  hover:bg-blue-900'
                 rightIcon='/right-arrow.svg'
                 handleClick={() => setIsOpen(true)}
+                
               />
             </div>
           ))}
        </div>
         
-       <CategoryDetails isOpen={isOpen} closeModal={() => setIsOpen(false)} car={undefined}  />
+       <CategoryDetails 
+        isOpen={isOpen} closeModal={() => setIsOpen(false)} car={undefined}  />
     </div>
     );
 };
