@@ -1,6 +1,6 @@
 
 .gallery-box{
-    background: #AAA;
+    background: var(--bg-light);
     width: 100%;
     height: 150%;
     margin-top: 3rem;
