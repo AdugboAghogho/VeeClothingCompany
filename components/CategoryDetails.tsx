@@ -59,32 +59,29 @@ const CategoryDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                     />
                   </button>
 
-                   <div className="gallery-section">
-                        {/* <div className="container"> */}
+                  <div className="gallery-section">
+                    <div className="gallery-box">
+                      {categoryDetails.map((categoryDetail) => (
+                        <div className="box big">
+                          <Image 
+                            src={categoryDetail.imgUrl} 
+                            alt={categoryDetail.title}
+                            width={130}
+                            height={50}
+                            className="img-fluid"
+                          />
+                            
+                        </div>
+                      ))}
 
-                            <div className="gallery-box">
-                                {categoryDetails.map((categoryDetail) => (
-                                    <div className="box big">
-                                        
-                                        <Image 
-                                            src={categoryDetail.imgUrl} 
-                                            alt={categoryDetail.title}
-                                            width={130}
-                                            height={50}
-                                            className="img-fluid"
-                                        />
-                                        
-                                    </div>
-                                ))}
-                            </div>
-                        {/* </div> */}
-
-                            <CustomButton
-                                title="Message Me"
-                                containerStyles='bg-primary-blue text-white rounded-full mt-12  h-[50px] w-full tracking-[3px]  hover:bg-blue-900'
-                                rightIcon='/right-arrow.svg'
-                            />
                     </div>
+
+                    <CustomButton
+                      title="Message Me"
+                      containerStyles='bg-primary-blue text-white rounded-full mt-12  h-[50px] w-full tracking-[3px]  hover:bg-blue-900'
+                      rightIcon='/right-arrow.svg'
+                    />
+                  </div>
 
                 </Dialog.Panel>
               </Transition.Child>

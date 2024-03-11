@@ -2,10 +2,10 @@ import images from '../constants/images';
 
 export const cards = [
   {
-    id: 1, // Add a unique ID for each card
+    id: 1, 
     imageUrl: images.kaftan05,
-    title: 'Kaftans', // Descriptive title for accessibility
-    titleColor: 'blue', // Class name or inline style for title color
+    title: 'Kaftans', 
+    titleColor: 'blue', 
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const cards = [
     id: 3,
     imageUrl: images.cop2,
     title: 'Coporate Branding',
-    titleColor: 'blue', // Adjust based on background color
+    titleColor: 'blue', 
   },
   {
     id: 4,
@@ -45,10 +45,11 @@ export const categorys = [
   },
   {
     imgUrl: images.kaftan03,
-    title: 'AA Hospitality',
+    title: 'Coporate Wear',
     subtitle: 'Exquisite kaftans',
   },
 ];
+
 export const categoryDetails = [
   {
     imgUrl: images.kaftan01,
@@ -75,13 +76,36 @@ export const categoryDetails = [
     title: 'Suits',
   },
   {
+    imgUrl: images.suit02,
+    title: 'Suits',
+  },
+  {
+    imgUrl: images.suit03,
+    title: 'Suits',
+  },
+  {
+    imgUrl: images.cop1,
+    title: 'Coporate Wear',
+    subtitle: 'Exquisite kaftans',
+  },
+  {
     imgUrl: images.cop2,
     title: 'Coporate Wear',
     subtitle: 'Exquisite kaftans',
   },
   {
-    imgUrl: images.kaftan03,
-    title: 'AA Hospitality',
+    imgUrl: images.cop3,
+    title: 'Coporate Wear',
+    subtitle: 'Exquisite kaftans',
+  },
+  {
+    imgUrl: images.cop4,
+    title: 'Coporate Wear',
+    subtitle: 'Exquisite kaftans',
+  },
+  {
+    imgUrl: images.cop5,
+    title: 'Coporate Wear',
     subtitle: 'Exquisite kaftans',
   },
 ];
@@ -100,15 +124,17 @@ export const footerLinks = [
     links: [
       { title: "Events", url: "/" },
       { title: "Blog", url: "/" },
-      { title: "Invite a friend", url: "/" },
+      { title: "Drop a Review", url: "https://g.page/r/CQjgwsryvLBuEAg/review" },
     ],
   },
   {
     title: "Socials",
     links: [
-      { title: "X", url: "/" },
+      { title: "X", url: "http://x.com/Veeclothingcomp" },
       { title: "Instagram", url: "/" },
       { title: "Twitter", url: "/" },
+      { title: "LinkedIn", url: "/" },
+      { title: "YouTube", url: "/" },
     ],
   },
 ];
