@@ -12,7 +12,7 @@ const Navbar = () => {
           className='flex justify-center items-center'
         >
            <Image 
-              src='/VCC`.png'
+              src='/VCC.png'
               alt='Car Hub logo'
               width={300}
               height={18}
