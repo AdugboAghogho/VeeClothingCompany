@@ -27,24 +27,29 @@ export const cards = [
   },
 ];
 
-export const categorys = [
+export const brands = [
   {
-    imgUrl: images.kaftan01,
+    imgUrl: images.brand01,
     title: 'Kaftan',
     subtitle: 'Exquisite kaftans',
   },
   {
-    imgUrl: images.suit01,
+    imgUrl: images.brand02,
     title: 'Suits',
     subtitle: 'Exquisite kaftans',
   },
   {
-    imgUrl: images.cop2,
+    imgUrl: images.brand03,
     title: 'Coporate Wear',
     subtitle: 'Exquisite kaftans',
   },
   {
-    imgUrl: images.kaftan03,
+    imgUrl: images.brand04,
+    title: 'Coporate Wear',
+    subtitle: 'Exquisite kaftans',
+  },
+  {
+    imgUrl: images.brand05,
     title: 'Coporate Wear',
     subtitle: 'Exquisite kaftans',
   },

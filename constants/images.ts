@@ -15,6 +15,12 @@ import suit02 from '../public/suit02.png';
 import suit03 from '../public/suit03.png';
 import hero from '../public/hero.png';
 import hero1 from '../public/hero-bg.png';
+import brand01 from '../public/brand01.png';
+import brand02 from '../public/brand02.jpg';
+import brand03 from '../public/brand03.jpg';
+import brand04 from '../public/brand04.png';
+import brand05 from '../public/brand05.png';
+
 
 
 export default {
@@ -34,5 +40,10 @@ export default {
   suit03,
   hero,
   hero1,
+  brand01,
+  brand02,
+  brand03,
+  brand04,
+  brand05,
 };
  

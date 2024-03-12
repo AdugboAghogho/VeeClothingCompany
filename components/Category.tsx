@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react';
 import './Category.css'
 import Image from 'next/image';
