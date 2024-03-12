@@ -30,8 +30,8 @@ export const cards = [
 export const brands = [
   {
     imgUrl: images.brand01,
-    title: 'Kaftan',
-    subtitle: 'Exquisite kaftans',
+    title: 'Lisa Scott',
+    subtitle: 'Backend',
   },
   {
     imgUrl: images.brand02,
