@@ -33,7 +33,7 @@ const BrandCard = ({ id, imgUrl, title, index, active, handleClick }) => (
             alt="headset"
             width={500}
             height={500}
-            className="w-1/2 h-1/2 object-contain"
+            className="w-[500px] h-[500px] object-contain"
           />
         </div>
         <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
