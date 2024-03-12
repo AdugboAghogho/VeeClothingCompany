@@ -28,35 +28,6 @@ const Brand = () => {
                     
                 </li>
             ))}
-
-
-          <li>
-            <img src="img2.jpg" />
-            <div className="content">
-              <span>
-                <h2>Lisa Scott</h2>
-                <p>Backend</p>
-              </span>
-            </div>
-          </li>
-          <li>
-            <img src="img3.jpg" />
-            <div className="content">
-              <span>
-                <h2>Pavel Dvorak</h2>
-                <p>Backend</p>
-              </span>
-            </div>
-          </li>
-          <li>
-            <img src="img4.jpg" />
-            <div className="content">
-              <span>
-                <h2>Kelly Cox</h2>
-                <p>Designer</p>
-              </span>
-            </div>
-          </li>
         </ul>
       </div>
     </div>
