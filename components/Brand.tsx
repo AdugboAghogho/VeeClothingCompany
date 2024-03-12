@@ -1,27 +1,43 @@
-import React from 'react'
-import './Brand.css'
-import { brands } from '@/constants/data'
-import Image from 'next/image'
+'use client';
 
-const Brand = () => {
+import { motion } from 'framer-motion';
+import { useState } from 'react';
+
+import styles from '../app/index';
+import { staggerContainer } from './../utils/motion';
+import { brands } from '@/constants/data';
+import {BrandCard} from './BrandCard';
+
+
+const Explore = () => {
+  const [active, setActive] = useState('world-2');
+
   return (
-    <div>
-      <div className='body'>
-        <ul className="accordion">
-          {brands.map((brand) => (
-            <li className="box big">
-              <Image 
-                src={brand.imgUrl} 
-                alt={brand.title}
-                width={130}
-                height={50}
-              />
-            </li>
-            ))}
-        </ul>
-      </div>
-    </div>
-  )
-}
+  <section className={`${styles.paddings}`} id='explore'> 
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`${styles.innerWidth} mx-auto flex flex-col`}
+    >
+      {/* <TypingText title="| The World" textStyles="text-center" />
+      <TitleText title={<>Choose the World you want <br className='md:block hidden' /> to explore</>} textStyles="text-center" /> */}
 
-export default Brand
+      <div className='mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5'>
+        {brands.map((world, index) => (
+          <BrandCard
+            key={world.id}
+            {...world}
+            index={index} 
+            active={active}
+            handleClick={setActive}
+          />
+        ))}
+      </div>
+    </motion.div>
+  </section>
+  );
+};
+
+export default Explore;

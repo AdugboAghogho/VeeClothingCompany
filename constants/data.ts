@@ -31,22 +31,22 @@ export const brands = [
   {
     imgUrl: images.brand01,
     title: 'Lisa Scott',
-    subtitle: 'Backend',
+     id: 'world-1',  
   },
   {
     imgUrl: images.brand02,
     title: 'Pavel Dvorak',
-    subtitle: 'Backend',
+     id: 'world-2',  
   },
   {
     imgUrl: images.brand03,
     title: 'Kelly Cox',
-    subtitle: 'Designer',
+     id: 'world-3',  
   },
   {
     imgUrl: images.brand04,
     title: 'Coporate Wear',
-    subtitle: 'Exquisite kaftans',
+     id: 'world-4',  
   },
  
 ];
