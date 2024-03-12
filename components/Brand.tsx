@@ -6,7 +6,7 @@ import { useState } from 'react';
 import styles from '../app/index';
 import { staggerContainer } from './../utils/motion';
 import { brands } from '@/constants/data';
-import {BrandCard} from './BrandCard';
+import  BrandCard  from './BrandCard';
 
 
 const Explore = () => {
