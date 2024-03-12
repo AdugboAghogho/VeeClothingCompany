@@ -40,8 +40,8 @@ export const brands = [
   },
   {
     imgUrl: images.brand03,
-    title: 'Coporate Wear',
-    subtitle: 'Exquisite kaftans',
+    title: 'Kelly Cox',
+    subtitle: 'Designer',
   },
   {
     imgUrl: images.brand04,
