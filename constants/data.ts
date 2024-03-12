@@ -35,7 +35,7 @@ export const brands = [
   },
   {
     imgUrl: images.brand02,
-    title: 'Suits',
+    title: 'Pavel Dvorak',
     subtitle: 'Exquisite kaftans',
   },
   {
