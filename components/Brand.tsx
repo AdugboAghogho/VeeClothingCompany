@@ -17,15 +17,15 @@ const Brand = () => {
               </span>
             </div>
           </li>
+          
           {brands.map((brand) => (
             <li className="box big">
-            <Image 
+              <Image 
                 src={brand.imgUrl} 
                 alt={brand.title}
                 width={130}
                 height={50}
-            />
-                
+              />
             </li>
             ))}
         </ul>
