@@ -5,8 +5,9 @@ import { motion } from 'framer-motion';
 import styles from '../app/index';
 import { fadeIn } from '../utils/motion';
 import Image from 'next/image';
+import { BrandCardProps } from '@/types';
 
-const BrandCard = ({ id, imgUrl, title, index, active, handleClick }) => (
+const BrandCard: React.FC<BrandCardProps> = ({ id, imgUrl, title, index, active, handleClick }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
