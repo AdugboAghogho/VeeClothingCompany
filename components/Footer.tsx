@@ -23,7 +23,11 @@ const Footer = () => {
                     providing quality services. <br />
  
                 </p>
-                <p></p>
+                <p>
+                    We provide customized services <br />
+                    in terms of taste , fabric, color, <br />
+                    and design. &copy;
+                </p>
             </div>
 
             <div className="footer__links">
