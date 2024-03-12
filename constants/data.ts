@@ -30,22 +30,22 @@ export const cards = [
 export const brands = [
   {
     imgUrl: images.brand01,
-    title: 'Lisa Scott',
+    title: 'The Deltan Queen',
      id: 'world-1',  
   },
   {
     imgUrl: images.brand02,
-    title: 'Pavel Dvorak',
+    title: 'Food Box',
      id: 'world-2',  
   },
   {
     imgUrl: images.brand03,
-    title: 'Kelly Cox',
+    title: '6gadget',
      id: 'world-3',  
   },
   {
     imgUrl: images.brand04,
-    title: 'Coporate Wear',
+    title: 'The Design Studio',
      id: 'world-4',  
   },
   {
