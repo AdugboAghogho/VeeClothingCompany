@@ -48,6 +48,11 @@ export const brands = [
     title: 'Coporate Wear',
      id: 'world-4',  
   },
+  {
+    imgUrl: images.brand05,
+    title: 'Coporate Wear',
+     id: 'world-5',  
+  },
  
 ];
 
