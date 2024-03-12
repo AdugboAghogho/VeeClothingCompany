@@ -17,9 +17,15 @@ const Footer = () => {
                 />
 
                 <p className="text-base text-gray-700">
-                    Carhub 2023 <br />
-                    All rights Reserved &copy;
+                    
+                    We are very passionate about <br />
+                    our work and committed to <br />
+                    providing quality services. <br />
+
+                    
+                    
                 </p>
+               <p></p>
             </div>
 
             <div className="footer__links">

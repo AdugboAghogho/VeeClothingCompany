@@ -48,11 +48,7 @@ export const brands = [
     title: 'Coporate Wear',
     subtitle: 'Exquisite kaftans',
   },
-  // {
-  //   imgUrl: images.brand05,
-  //   title: 'Coporate Wear',
-  //   subtitle: 'Exquisite kaftans',
-  // },
+ 
 ];
 
 export const categoryDetails = [
