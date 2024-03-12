@@ -34,25 +34,30 @@ export const brands = [
      id: 'world-1',  
   },
   {
+    imgUrl: images.brand04,
+    title: 'The Design Studio',
+    id: 'world-4',  
+  },
+  {
+    imgUrl: images.brand05,
+    title: 'Top Model of Delta',
+    id: 'world-5',  
+  },
+  {
+    imgUrl: images.brand06,
+    title: '9ce Photography',
+    id: 'world-6',  
+  },
+  {
     imgUrl: images.brand02,
     title: 'Food Box',
      id: 'world-2',  
   },
-  {
-    imgUrl: images.brand03,
-    title: '6gadget',
-     id: 'world-3',  
-  },
-  {
-    imgUrl: images.brand04,
-    title: 'The Design Studio',
-     id: 'world-4',  
-  },
-  {
-    imgUrl: images.brand05,
-    title: 'Coporate Wear',
-     id: 'world-5',  
-  },
+  // {
+  //   imgUrl: images.brand03,
+  //   title: '6gadget',
+  //    id: 'world-3',  
+  // },
  
 ];
 

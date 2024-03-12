@@ -37,9 +37,9 @@ const BrandCard: React.FC<BrandCardProps> = ({ id, imgUrl, title, index, active,
             className="w-[500px] h-[500px] object-contain"
           />
         </div>
-        <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
+        {/* <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
           Enter Metaverse
-        </p>
+        </p> */}
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
