@@ -45,8 +45,8 @@ const Category = () => {
           ))}
        </div>
         
-       {/* <CategoryDetails 
-        isOpen={isOpen} closeModal={() => setIsOpen(false)} car={undefined}  /> */}
+       <CategoryDetails 
+        isOpen={isOpen} closeModal={() => setIsOpen(false)} car={undefined}  />
     </div>
     );
 };

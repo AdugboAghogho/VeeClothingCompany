@@ -13,10 +13,10 @@ const Explore = () => {
   const [active, setActive] = useState('world-2');
 
   return (
-    <section className={`${styles.paddings} dd  bg-blue-100`} id='explore'> 
+    <section className={`${styles.paddings} dd`} id='explore'> 
 
        <h1 className="hero__title">
-          PARTNERSHIP
+          Brands We've worked with
         </h1>
       <motion.div
         variants={staggerContainer}

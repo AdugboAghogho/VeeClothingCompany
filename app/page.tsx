@@ -13,7 +13,7 @@ export default function Home() {
     <main className='overflow-hidden'>
       <Hero />
       <Gallery />
-      <Category />
+      {/* <Category /> */}
       <Brand />
       {/* <Intro /> */}
     </main>
