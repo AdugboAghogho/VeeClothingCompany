@@ -15,7 +15,7 @@ const BrandCard: React.FC<BrandCardProps> = ({ id, imgUrl, title, index, active,
     } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-    <img
+    <Image
       src={imgUrl}
       alt="planet-04"
       className="absolute w-full h-full object-cover rounded-[24px]"
