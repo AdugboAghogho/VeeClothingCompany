@@ -8,16 +8,8 @@ const Brand = () => {
     <div>
       <div className='body'>
         <ul className="accordion">
-          <li>
-            <img src="img1.jpg" />
-            <div className="content">
-              <span>
-                <h2>Carmen Rios</h2>
-                <p>Frontend</p>
-              </span>
-            </div>
-          </li>
           
+      
           {brands.map((brand) => (
             <li className="box big">
               <Image 
