@@ -18,7 +18,7 @@ import hero1 from '../public/hero-bg.png';
 import brand01 from '../public/brand01.png';
 import brand02 from '../public/brand02.jpg';
 import brand03 from '../public/brand03.jpg';
-import brand04 from '../public/brand04.png';
+import brand04 from '../public/brand04.jpeg';
 import brand05 from '../public/brand05.png';
 
 
