@@ -21,11 +21,9 @@ const Footer = () => {
                     We are very passionate about <br />
                     our work and committed to <br />
                     providing quality services. <br />
-
-                    
-                    
+ 
                 </p>
-               <p></p>
+                <p></p>
             </div>
 
             <div className="footer__links">
