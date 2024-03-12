@@ -36,7 +36,7 @@ export const brands = [
   {
     imgUrl: images.brand02,
     title: 'Pavel Dvorak',
-    subtitle: 'Exquisite kaftans',
+    subtitle: 'Backend',
   },
   {
     imgUrl: images.brand03,
