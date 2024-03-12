@@ -28,7 +28,7 @@ const BrandCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
           <img
-            src="/headset.svg"
+            src="/VCC1.png"
             alt="headset"
             className="w-1/2 h-1/2 object-contain"
           />
