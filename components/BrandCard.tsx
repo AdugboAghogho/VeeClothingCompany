@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 import styles from '../app/index';
 import { fadeIn } from '../utils/motion';
+import Image from 'next/image';
 
 const BrandCard = ({ id, imgUrl, title, index, active, handleClick }) => (
   <motion.div
@@ -27,9 +28,11 @@ const BrandCard = ({ id, imgUrl, title, index, active, handleClick }) => (
         <div
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
-          <img
+          <Image
             src="/VCC1.png"
             alt="headset"
+            width={500}
+            height={500}
             className="w-1/2 h-1/2 object-contain"
           />
         </div>
