@@ -9,7 +9,6 @@ const Brand = () => {
       <div className='body'>
         <ul className="accordion">
           
-      
           {brands.map((brand) => (
             <li className="box big">
               <Image 
