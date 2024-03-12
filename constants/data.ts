@@ -125,31 +125,29 @@ export const categoryDetails = [
 ];
 
 export const footerLinks = [
-  {
-    title: "About",
-    links: [
-      { title: "Featured", url: "/" },
-      { title: "Partnership", url: "/" },
-      { title: "Bussiness Relation", url: "/" },
-    ],
-  },
+  // {
+  //   title: "About",
+  //   links: [
+  //     { title: "Featured", url: "/" },
+  //     { title: "Partnership", url: "/" },
+  //     { title: "Bussiness Relation", url: "/" },
+  //   ],
+  // },
   {
     title: "Company",
     links: [
-      { title: "Events", url: "/" },
-      { title: "Blog", url: "/" },
+      { title: "About Us", url: "http://linktr.ee/veeclothingcompany" },
       { title: "Drop a Review", url: "https://g.page/r/CQjgwsryvLBuEAg/review" },
     ],
   },
   {
     title: "Socials",
     links: [
-      { title: "X", url: "" },
-      { title: "Instagram", url: "/" },
-      { title: "Twitter", url: "/" },
+      { title: "X", url: "http://x.com/Veeclothingcomp" },
+      { title: "Instagram", url: "https://instagram.com/veeclothingcompany" },
+      { title: "Pinterest", url: "https://www.pinterest.com/veeclothingcompany/" },
       { title: "LinkedIn", url: "/" },
       { title: "YouTube", url: "/" },
-      { title: "Pinterest", url: "/" },
     ],
   },
 ];

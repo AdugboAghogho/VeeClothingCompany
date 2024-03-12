@@ -17,16 +17,8 @@ const Footer = () => {
                 />
 
                 <p className="text-base text-gray-700">
-                    
-                    We are very passionate about <br />
-                    our work and committed to <br />
-                    providing quality services. <br />
- 
-                </p>
-                <p>
-                    We provide customized services <br />
-                    in terms of taste , fabric, color, <br />
-                    and design. &copy;
+                  We customize taste, fabric, color, and design <br /> to 
+                  create high-quality services you'll love &copy;
                 </p>
             </div>
 
@@ -51,7 +43,7 @@ const Footer = () => {
 
         </div>
         <div className="flex justify-between items-center flex-wrap mt-10  border-gray-100 sm:px-16 px-6 py-10">
-            <p>@veeclothingCompany, All Rights Reserved</p>
+            <p>@Vee Clothing Company, All Rights Reserved</p>
 
             <div className="footer__copyrights-link">
                 <Link
