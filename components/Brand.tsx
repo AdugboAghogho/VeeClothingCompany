@@ -14,6 +14,10 @@ const Explore = () => {
 
   return (
     <section className={`${styles.paddings} dd  bg-blue-100`} id='explore'> 
+
+       <h1 className="hero__title">
+          PARTNERSHIP
+        </h1>
       <motion.div
         variants={staggerContainer}
         initial="hidden"

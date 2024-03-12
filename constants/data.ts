@@ -149,6 +149,7 @@ export const footerLinks = [
       { title: "Twitter", url: "/" },
       { title: "LinkedIn", url: "/" },
       { title: "YouTube", url: "/" },
+      { title: "Pinterest", url: "/" },
     ],
   },
 ];
