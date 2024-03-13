@@ -41,11 +41,11 @@ const Contact = () => {
 
 
   return (
-    <div className='the'>
+    <div className='the bg-blue-100 w-full'>
        <div className="container">
-            <div className="forms-container">
-                <div className="signin-signup">
-                    <form onSubmit={handleSubmit(onSubmit)} className="sign-in-form">
+            <div className="forms-container ">
+                <div className="signin-signup ">
+                    <form onSubmit={handleSubmit(onSubmit)} className="sign-in-form mt-[50px]">
                         <h2 className="title">Contact Us</h2>
 
                        
@@ -56,7 +56,7 @@ const Contact = () => {
                             type="text"
                             placeholder="Name"
                             />
-                            {errors.name && <span className="error">Name is required</span>}
+                            {errors.name && <span className="error" style={{ color: 'red' }}>Name is required</span>}
                         {/* </div> */}
 
                         {/* <div className="input-container"> */}
@@ -66,7 +66,7 @@ const Contact = () => {
                             type="text"
                             placeholder="Last Name"
                             />
-                            {errors.lastName && <span className="error">Last Name is required</span>}
+                            {errors.lastName && <span className="error" style={{ color: 'red' }}>Last Name is required</span>}
                         {/* </div> */}
 
                         {/* <div className="input-container"> */}
@@ -77,10 +77,10 @@ const Contact = () => {
                             placeholder="Email"
                             />
                             {errors.email && errors.email.type === 'required' && (
-                            <span className="error">Email is required</span>
+                            <span className="error" style={{ color: 'red' }}>Email is required</span>
                             )}
                             {errors.email && errors.email.type === 'pattern' && (
-                            <span className="error">Invalid email format</span>
+                            <span className="error" style={{ color: 'red' }}>Invalid email format</span>
                             )}
                         {/* </div> */}
 
@@ -91,7 +91,7 @@ const Contact = () => {
                             rows={10}
                             placeholder="Message"
                         />
-                        {errors.message && <span className="error">Message is required</span>}
+                        {errors.message && <span className="error" style={{ color: 'red' }}>Message is required</span>}
 
                         <CustomButton
                             title={formSubmitted ? 'Sending...' : 'Send Message'}
