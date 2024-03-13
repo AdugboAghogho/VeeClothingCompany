@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import './Contact.css'
 import { FaFacebookF, FaPinterestP } from "react-icons/fa";
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
-import { IoMdLock, IoMdMail } from "react-icons/io";
 import CustomButton from './CustomButton';
 import Link from 'next/link';
 import { useRef} from 'react';
 import { useForm } from 'react-hook-form';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -24,6 +24,7 @@ const Contact = () => {
 
       if (response.ok) {
         console.log('Form submission successful!');
+        toast.success('Message Sent!');
         // Optionally, display a success message to the user
         setFormSubmitted(false);
       } else {
@@ -45,7 +46,7 @@ const Contact = () => {
             <div className="forms-container">
                 <div className="signin-signup">
                     <form onSubmit={handleSubmit(onSubmit)} className="sign-in-form">
-                        <h2 className="hero__title">Contact Us</h2>
+                        <h2 className="title">Contact Us</h2>
 
                        
                         {/* <div className="input-container"> */}
