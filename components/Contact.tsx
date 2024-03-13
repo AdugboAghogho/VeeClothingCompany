@@ -25,6 +25,7 @@ const Contact = () => {
       if (response.ok) {
         console.log('Form submission successful!');
         // Optionally, display a success message to the user
+        setFormSubmitted(false);
       } else {
         console.error('Form submission failed.');
         // Optionally, handle errors gracefully (e.g., display an error message)
@@ -44,10 +45,10 @@ const Contact = () => {
             <div className="forms-container">
                 <div className="signin-signup">
                     <form onSubmit={handleSubmit(onSubmit)} className="sign-in-form">
-                        <h2 className="title">Contact Us</h2>
+                        <h2 className="hero__title">Contact Us</h2>
 
                        
-                        <div className="input-container">
+                        {/* <div className="input-container"> */}
                             <input
                             {...register('name', { required: true })}
                             className="input-field"
@@ -55,9 +56,9 @@ const Contact = () => {
                             placeholder="Name"
                             />
                             {errors.name && <span className="error">Name is required</span>}
-                        </div>
+                        {/* </div> */}
 
-                        <div className="input-container">
+                        {/* <div className="input-container"> */}
                             <input
                             {...register('lastName', { required: true })}
                             className="input-field"
@@ -65,10 +66,9 @@ const Contact = () => {
                             placeholder="Last Name"
                             />
                             {errors.lastName && <span className="error">Last Name is required</span>}
-                        </div>
+                        {/* </div> */}
 
-                        <div className="input-container">
-                            <IoMdMail className="icon" />
+                        {/* <div className="input-container"> */}
                             <input
                             {...register('email', { required: true, pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/ })}
                             className="input-field"
@@ -81,7 +81,7 @@ const Contact = () => {
                             {errors.email && errors.email.type === 'pattern' && (
                             <span className="error">Invalid email format</span>
                             )}
-                        </div>
+                        {/* </div> */}
 
                         <textarea
                             {...register('message', { required: true })}
@@ -96,7 +96,7 @@ const Contact = () => {
                             title={formSubmitted ? 'Sending...' : 'Send Message'}
                             containerStyles="bg-primary-blue text-white rounded-full left-[15px] mt-12 h-[50px] w-full tracking-[3px] hover:bg-blue-900"
                             rightIcon="/right-arrow.svg"
-                            disabled={formSubmitted} // Disable button while submitting
+                            isDisabled={formSubmitted} // Disable button while submitting
                             handleClick={handleSubmit(onSubmit)} // Use handleSubmit for validation
                         />
 
