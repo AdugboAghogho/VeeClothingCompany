@@ -5,7 +5,8 @@
     min-height: 60vh;
     overflow: hidden;
     margin-top: 5rem;
-    padding: 5rem;
+    align-items: center;
+    border-radius: 5rem;
 
   }
   
