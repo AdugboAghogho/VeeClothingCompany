@@ -3,7 +3,7 @@
     left: 12%;
     width: 75%;
     background-color: #fff;
-    min-height: 60vh;
+    min-height: 70vh;
     overflow: hidden;
     margin-top: 5rem;
     border-radius: 5rem;
@@ -57,6 +57,16 @@
     margin-bottom: 10px;
   }
   
+  .input-field1 {
+    display: flex;
+    gap: 1.2rem;
+    background-color: #f0f0f0;
+    width: 75%;
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+  }
+
   .input-field {
     max-width: 380px;
     width: 100%;
@@ -70,7 +80,12 @@
     position: relative;
   }
   
-  .input-field i {
+  .icon{
+    margin-top: 20px;
+    width: 40px;
+  }
+  .input-field .icon {
+    top: 5px;
     text-align: center;
     line-height: 55px;
     color: #acacac;
@@ -78,7 +93,7 @@
     font-size: 1.1rem;
   }
   
-  .input-field input {
+  .input-field input, .input-field1 input {
     background: none;
     outline: none;
     border: none;
@@ -86,6 +101,11 @@
     font-weight: 600;
     font-size: 1.1rem;
     color: #333;
+  }
+
+  .input-field textarea {
+    width: 200%;
+    padding: 1rem;
   }
   
   .input-field input::placeholder {
@@ -388,5 +408,9 @@
       bottom: 28%;
       left: 50%;
     }
+
+    .input-field1 {
+        flex-direction: column;
+      }
   }
   
