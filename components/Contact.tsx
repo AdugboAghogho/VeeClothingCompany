@@ -67,6 +67,8 @@ const Contact = () => {
                 </form>
             </div>
             </div>
+
+            <div className='hero__image-overlay' />
         </div>
     // </div>
   )
