@@ -61,7 +61,7 @@
     display: flex;
     gap: 1.2rem;
     background-color: #f0f0f0;
-    width: 75%;
+    width: 85%;
     margin: 10px 0;
     height: 55px;
     border-radius: 55px;
@@ -84,6 +84,7 @@
     margin-top: 20px;
     width: 40px;
   }
+
   .input-field .icon {
     top: 5px;
     text-align: center;
@@ -141,6 +142,7 @@
   .social-icon:hover {
     color: #4481eb;
     border-color: #4481eb;
+    transform: scale(1.1);
   }
   
   .btn {
@@ -191,7 +193,7 @@
     transition-delay: 0.4s;
   }
   
-  .panel {
+  /* .panel {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -214,9 +216,9 @@
     color: #fff;
     transition: transform 0.9s ease-in-out;
     transition-delay: 0.6s;
-  }
+  } */
   
-  .panel h3 {
+  /* .panel h3 {
     font-weight: 600;
     line-height: 1;
     font-size: 1.5rem;
@@ -241,7 +243,7 @@
   .right-panel .content {
     transform: translateX(800px);
   }
-  
+   */
   /* ANIMATION */
   
   .container.sign-up-mode:before {
