@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="forms-container">
             <div className="signin-signup">
                 <form action="#" className="sign-in-form">
-                <h2 className="title">Sign in</h2>
+                <h2 className="title">Contact Us</h2>
                 <div className="input-field">
                     <i className="fas fa-user"></i>
                     <input type="text" placeholder="Username" />
@@ -34,7 +34,7 @@ const Contact = () => {
                     </a>
                 </div>
                 </form>
-                <form action="#" className="sign-up-form">
+                {/* <form action="#" className="sign-up-form">
                 <h2 className="title">Sign up</h2>
                 <div className="input-field">
                     <i className="fas fa-user"></i>
@@ -64,7 +64,7 @@ const Contact = () => {
                     <i className="fab fa-linkedin-in"></i>
                     </a>
                 </div>
-                </form>
+                </form> */}
             </div>
             </div>
 
