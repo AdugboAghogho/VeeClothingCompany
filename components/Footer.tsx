@@ -17,8 +17,16 @@ const Footer = () => {
                 />
 
                 <p className="text-base text-gray-700">
-                  We customize taste, fabric, color, and design <br /> to 
-                  create high-quality services you'll love &copy;
+                    
+                    We are very passionate about <br />
+                    our work and committed to <br />
+                    providing quality services. <br />
+ 
+                </p>
+                <p>
+                    We provide customized services <br />
+                    in terms of taste , fabric, color, <br />
+                    and design. &copy;
                 </p>
             </div>
 
