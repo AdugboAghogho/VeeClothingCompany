@@ -1,5 +1,6 @@
 .container {
     position: relative;
+    left: 10%;
     width: 50%;
     background-color: #fff;
     min-height: 60vh;
