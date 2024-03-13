@@ -6,7 +6,7 @@ import CustomButton from './CustomButton';
 import Link from 'next/link';
 import { useRef} from 'react';
 import { useForm } from 'react-hook-form';
-import { toast } from 'react-toastify';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Contact = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -23,8 +23,8 @@ const Contact = () => {
       });
 
       if (response.ok) {
-        console.log('Form submission successful!');
         toast.success('Message Sent!');
+        console.log('Form submission successful!');
         // Optionally, display a success message to the user
         setFormSubmitted(false);
       } else {
