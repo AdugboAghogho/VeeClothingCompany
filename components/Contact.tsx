@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <div className='the'>
        <div className="container">
-        <div className='hero__image-overlay' />
             <div className="forms-container">
             <div className="signin-signup">
                 <form action="#" className="sign-in-form">
