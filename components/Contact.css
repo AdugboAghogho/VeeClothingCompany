@@ -61,7 +61,7 @@
   }
   
 
-  .input-field {
+  .input-field, .input-field1 {
     max-width: 380px;
     width: 100%;
     background-color: #f0f0f0;
@@ -73,7 +73,7 @@
     padding: 0 0.4rem;
     position: relative;
   }
-  
+/*   
   .icon{
     margin-top: 20px;
     width: 40px;
@@ -86,7 +86,7 @@
     color: #acacac;
     transition: 0.5s;
     font-size: 1.1rem;
-  }
+  } */
   
   .input-field input, .input-field1 input {
     background: none;
@@ -98,15 +98,20 @@
     color: #333;
   }
 
-  .input-field textarea {
-    width: 200%;
-    height: 100%;
-    padding: 1rem;
+  .input-field1  {
+    /* width: 200%; */
+    height: 100px;
+    /* padding: 1rem; */
+  }
+  .input-field1 ::placeholder {
+    position: relative;
+    right: 15px;
   }
   
   .input-field input::placeholder {
     color: #aaa;
     font-weight: 500;
+    padding-right: 55px;
   }
   
   .social-text {

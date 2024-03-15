@@ -87,7 +87,7 @@ const Contact = () => {
                         <textarea
                             {...register('message', { required: true })}
                             name="message"
-                            className="input-field"
+                            className="input-field1"
                             rows={10}
                             placeholder="Message"
                         />
@@ -95,7 +95,7 @@ const Contact = () => {
 
                         <CustomButton
                             title={formSubmitted ? 'Sending...' : 'Send Message'}
-                            containerStyles="bg-primary-blue text-white rounded-full  mt-12 h-[50px] w-full tracking-[3px] hover:bg-blue-900"
+                            containerStyles="bg-primary-blue text-white rounded-full  mt-5 h-[50px] w-full tracking-[3px] hover:bg-blue-900"
                             rightIcon="/right-arrow.svg"
                             isDisabled={formSubmitted} // Disable button while submitting
                             handleClick={handleSubmit(onSubmit)} // Use handleSubmit for validation

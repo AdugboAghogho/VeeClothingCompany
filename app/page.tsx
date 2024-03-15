@@ -5,7 +5,7 @@ import Hero from './../components/Hero';
 import Gallery from './../components/Gallery';
 import Category from './../components/Category';
 import Brand from '@/components/Brand';
-// import Intro from "@/components/Intro";
+import Intro from "@/components/Intro";
 import Contact from './../components/Contact';
 
 export default function Home() {
