@@ -103,7 +103,7 @@
     height: 100px;
     /* padding: 1rem; */
   }
-  .input-field1 ::placeholder {
+  .input-field1 input::placeholder {
     position: relative;
     right: 15px;
   }
