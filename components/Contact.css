@@ -100,7 +100,7 @@
 
   .input-field textarea {
     width: 200%;
-    height: 50%;
+    height: 100%;
     padding: 1rem;
   }
   
@@ -308,7 +308,7 @@
     }
 
     .input-field1 {
-        flex-direction: column;
+      flex-direction: column;
     }
 
 

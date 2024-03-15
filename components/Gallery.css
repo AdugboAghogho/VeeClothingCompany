@@ -73,9 +73,9 @@
     transition: 0.5s ease;
 }
 
-.app__gallery-images_card:hover img{
+/* .app__gallery-images_card:hover img{
     opacity: 0.35;
-}
+} */
 
 .app__gallery-images_card:hover .gallery__image-icon {
     opacity: 1;

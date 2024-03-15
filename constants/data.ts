@@ -36,7 +36,7 @@ export const brands = [
   {
     imgUrl: images.brand04,
     title: 'The Design Studio',
-    id: 'world-4',  
+    id: 'world-2',  
   },
   {
     imgUrl: images.brand05,
@@ -51,7 +51,7 @@ export const brands = [
   {
     imgUrl: images.brand02,
     title: 'Food Box',
-     id: 'world-2',  
+     id: 'world-4',  
   },
   // {
   //   imgUrl: images.brand03,
