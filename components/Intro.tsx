@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
  
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 import './Intro.css';
+import Image from 'next/image';
 
 const Intro = () => {
   const [playVideo, setPlayVideo] = React.useState(false);
@@ -20,7 +21,7 @@ const Intro = () => {
   return (
     <div className="app__video">
       <video
-        src='../bgv.mp4'
+        src='/bgv.mp4'
         ref={vidRef}
         type="video/mp4"
         loop

@@ -3,7 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
  
 export const metadata = {
-  title: "Vee Clothing Company",
+  title: "VeeClothingCompany",
   description: "Discover our custom clothing services tailored to meet your unique style needs",
 };
 
