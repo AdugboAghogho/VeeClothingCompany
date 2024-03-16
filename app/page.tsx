@@ -16,7 +16,7 @@ export default function Home() {
       <Gallery />
       {/* <Category /> */}
       <Brand />
-      {/* <Intro /> */}
+      <Intro />
       <Contact />
     </main>
   );

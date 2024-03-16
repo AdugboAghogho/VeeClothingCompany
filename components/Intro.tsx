@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { useRef } from 'react';
  
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 import './Intro.css';
-import meal from '../bgv.mp4'
 
 const Intro = () => {
   const [playVideo, setPlayVideo] = React.useState(false);
-  const vidRef = React.useRef();
+  const vidRef = React.useRef(null);
 
   const handleVideo = () => {
     setPlayVideo((prevPlayVideo) => !prevPlayVideo)
@@ -21,7 +20,7 @@ const Intro = () => {
   return (
     <div className="app__video">
       <video
-        src={meal}
+        src='../bgv.mp4'
         ref={vidRef}
         type="video/mp4"
         loop
