@@ -101,6 +101,7 @@
   .input-field1  {
     /* width: 200%; */
     height: 100px;
+    border-radius: 10px;
     /* padding: 1rem; */
   }
   .input-field1 input::placeholder {

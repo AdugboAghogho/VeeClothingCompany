@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Contact.css'
 import { FaFacebookF, FaPinterestP } from "react-icons/fa";
-import { FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 import CustomButton from './CustomButton';
 import Link from 'next/link';
 import { useRef} from 'react';
@@ -117,7 +117,7 @@ const Contact = () => {
                             </Link>
 
                             <Link href="https://www.pinterest.com/veeclothingcompany/" className="social-icon">
-                              <FaPinterestP />
+                              <FaWhatsapp />
                             </Link>
                         </div>
                     </form>
