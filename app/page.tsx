@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className='overflow-hidden'>
       <Hero />
-      <Intro1 />
+      {/* <Intro1 /> */}
       <Gallery />
       {/* <Category /> */}
       <Brand />
