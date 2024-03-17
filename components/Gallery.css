@@ -56,8 +56,8 @@
 
 .gallery__image-icon{
     position: absolute;
-    left: 10rem;
-    top: 15rem;
+    /* left: 10rem;
+    top: 15rem; */
     color: #fff;
     font-size: 3rem;
     opacity: 0.1;
