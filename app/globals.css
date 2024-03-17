@@ -60,7 +60,7 @@ body{
 .app__video-overlay {
   position: absolute;
   inset: 0;
-  /* background: rgba(2, 2, 2, 0.678); */
+  background: rgba(59, 57, 57, 0.253);
 }
 
 .app__video-overlay_circle{
