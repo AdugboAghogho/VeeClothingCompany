@@ -23,20 +23,20 @@ const Intro = () => {
       <video
         src='/bgv.mp4'
         ref={vidRef}
-        type="video/mp4"
+        // type="video/mp4"
         loop
         controls={false}
         muted
       />
 
-      <div className="app__video-overlay flex__center">
+      <div className="app__video-overlay flex-center">
         <div 
-          className="app__video-overlay_circle flex__center"
+          className=" flex-center"
           onClick={handleVideo}
         >
           {playVideo 
-            ? <BsPauseFill color="#fff" fontSize={30} />
-            : <BsFillPlayFill color="#fff" fontSize={30} />
+            ? <BsPauseFill color="#AAA" fontSize={70} />
+            : <BsFillPlayFill color="#AAA" fontSize={70} />
           }
         </div>
       </div>
