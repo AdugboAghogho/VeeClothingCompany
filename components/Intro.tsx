@@ -22,10 +22,10 @@ const Intro = () => {
       <video
         src='/bgv.mp4'
         ref={vidRef}
-        // type="video/mp4"
+        type="video/mp4"
         loop
         controls={false}
-        muted
+        // muted
       />
 
       <div className="app__video-overlay flex-center">
