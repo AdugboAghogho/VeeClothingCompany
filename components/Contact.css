@@ -1,7 +1,7 @@
 .the{
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.377);
     height: 100%;
-    background: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    background: var(--bg-dark);
 }
 .container {
     position: relative;
@@ -101,7 +101,7 @@
 
   .input-field1  {
     /* width: 200%; */
-    height: 60px;
+    height: 90px;
     border-radius: 10px;
     /* padding: 1rem; */
   }

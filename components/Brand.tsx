@@ -16,7 +16,7 @@ const Explore = () => {
     <section className={`${styles.paddings} dd`} id='explore'> 
 
        <h1 className="hero__title">
-          Brands We've worked with
+          Brands We've Worked With
         </h1>
       <motion.div
         variants={staggerContainer}

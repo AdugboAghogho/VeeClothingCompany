@@ -20,10 +20,10 @@ const Hero = () => {
     <div className='hero'>
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          BESPOKE TAILORING <br />
-          FOR THE <br />
-          DISCERNING 
-          GENTLEMAN.
+          Bespoke Tailoring <br />
+          For The <br />
+          Discerning 
+          Gentleman.
         </h1>
 
         <p className="hero__subtitle">
