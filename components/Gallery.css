@@ -56,8 +56,8 @@
 
 .gallery__image-icon{
     position: absolute;
-    /* left: 10rem;
-    top: 15rem; */
+    left: 10rem;
+    top: 15rem;
     color: #fff;
     font-size: 3rem;
     opacity: 0.1;
@@ -164,5 +164,9 @@
     .app__gallery-images_card{
         min-width: 270px;
         height: 450px;
+    }
+    .gallery__image-icon{
+        left: 7rem;
+        top: 12rem;
     }
 }
