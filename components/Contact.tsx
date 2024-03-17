@@ -41,8 +41,8 @@ const Contact = () => {
 
 
   return (
-    <div className='the bg-blue-100 w-full'>
-       <div className="container">
+    <div className='the  w-full'>
+       <div className="container bg-blue-100">
             <div className="forms-container ">
                 <div className="signin-signup ">
                     <form onSubmit={handleSubmit(onSubmit)} className="sign-in-form mt-[50px]">
