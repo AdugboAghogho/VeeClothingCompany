@@ -7,8 +7,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const galleryImages = [images.hero1, images.kaftan02, images.kaftan03, 
-                       images.kaftan04, images.suit01, images.suit02, 
-                       images.suit03, images.suit04, images.cop4, images.cop2, 
+                      //  images.kaftan04, images.suit01, images.suit02, 
+                      //  images.suit03, images.suit04, images.cop4, images.cop2, 
                        images.cop3,  images.cop5,];
 
 const Gallery = () => {
