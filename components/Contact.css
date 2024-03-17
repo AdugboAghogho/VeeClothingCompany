@@ -68,7 +68,7 @@
     background-color: #f0f0f0;
     margin: 10px 0;
     height: 55px;
-    border-radius: 55px;
+    border-radius: 20px;
     display: grid;
     grid-template-columns: 15% 85%;
     padding: 0 0.4rem;
@@ -101,7 +101,7 @@
 
   .input-field1  {
     /* width: 200%; */
-    height: 90px;
+    height: 110px;
     border-radius: 10px;
     /* padding: 1rem; */
   }
@@ -183,7 +183,7 @@
     top: -40%;
     right: 48%;
     transform: translateY(-50%);
-    background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    background: rgb(43 89 255);
     transition: 1.8s ease-in-out;
     border-radius: 50%;
     z-index: 6;
