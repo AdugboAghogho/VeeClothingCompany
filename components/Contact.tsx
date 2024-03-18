@@ -116,7 +116,7 @@ const Contact = () => {
                               <FaInstagram />
                             </Link>
 
-                            <Link href="https://www.pinterest.com/veeclothingcompany/" className="social-icon">
+                            <Link href="https://wa.me/c/2348103031020" className="social-icon">
                               <FaWhatsapp />
                             </Link>
                         </div>
