@@ -8,8 +8,8 @@ import Link from 'next/link';
 
 const galleryImages = [
                        images.hero1, images.kaftan02, images.kaftan03, images.kaftan04, 
-                       images.suit01, images.suit02, images.suit03, images.suit04, 
-                       images.cop4, images.cop2, images.cop3,  images.cop5,
+                       images.suit01, images.suit02, images.suit03, images.suit04, images.suit05, 
+                       images.cop4, images.cop2, images.cop6,  images.cop5,  images.cop7,
                        images.kaftan05, images.kaftan06, images.kaftan07, images.kaftan08, images.kaftan09, images.kaftan10,,
                       ];
 
