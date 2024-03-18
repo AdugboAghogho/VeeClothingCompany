@@ -15,7 +15,7 @@ const galleryImages = [
 const Gallery = () => {
   const whatsappNumber = '2348103031020'; 
   const whatsappUrl = `https://wa.me/c/${whatsappNumber}`;
-  const InstagramUrl = `https://www.instagram.com/veeclothingcompanykaftans?igsh=MXYxdWFvaDd3b2ZqaQ==`;
+  const InstagramUrl = `http://linktr.ee/veeclothingcompany`;
 
 
   const scrollRef = React.useRef(null);
