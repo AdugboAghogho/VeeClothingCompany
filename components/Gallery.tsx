@@ -5,6 +5,8 @@ import './Gallery.css';
 import CustomButton from './CustomButton';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 const galleryImages = [
                        images.hero1, images.kaftan02, images.kaftan03, images.kaftan04, 
@@ -14,6 +16,27 @@ const galleryImages = [
                       ];
 
 const Gallery = () => {
+  // TODO: Implement gsap text animation
+  useGSAP(() => {
+    gsap.to('#text', {
+      ease: 'power1.inOut',
+      opacity: 1,
+      y: 0,
+    })
+
+    gsap.fromTo('.hero__subtitle', {
+      opacity: 0,
+      y: 0,
+    },
+    {
+      opacity: 1,
+      y: 0,
+      delay: 1,
+      stagger: 0.1,
+    })
+  }, [])
+
+
   const whatsappNumber = '2348103031020'; 
   const whatsappUrl = `https://wa.me/c/${whatsappNumber}`;
   const InstagramUrl = `http://linktr.ee/veeclothingcompany`;
@@ -35,7 +58,7 @@ const Gallery = () => {
     <div className="app__gallery flex__center bg-blue-100">
       <div className="app__gallery-content">
         {/* <SubHeading title="Instagram" /> */}
-        <h1 className="hero__title ">
+        <h1 className="hero__title " id='text'>
             Express your Unique Style, Embrace Timeless Elegance
         </h1>
 
