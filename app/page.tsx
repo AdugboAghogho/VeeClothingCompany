@@ -8,6 +8,7 @@ import Brand from '@/components/Brand';
 import Intro from "@/components/Intro";
 import Contact from './../components/Contact';
 import Intro1 from '@/components/Intro 1';
+import FAQs from './../components/FAQs';
 
 export default function Home() {
   
@@ -19,6 +20,7 @@ export default function Home() {
       {/* <Category /> */}
       <Brand />
       <Intro />
+      <FAQs />
       <Contact />
     </main>
   );
