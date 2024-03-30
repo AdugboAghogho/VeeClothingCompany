@@ -34,15 +34,7 @@ faqs.forEach(faq => {
                 </div>
             </article>
 
-            <article class="faq">
-                <div class="faq__icon"><i class="uil uil-plus"></i></div>
-                <div class="question__answer">
-                    <h4>How do I know the right courses for me?</h4>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis! Tenetur, ut!
-                    </p>
-                </div>
-            </article>
+            
 
           
             
