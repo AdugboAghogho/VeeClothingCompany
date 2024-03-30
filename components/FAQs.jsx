@@ -4,6 +4,7 @@ const FAQs = () => {
   return (
     <div>
       
+
       
 
     </div>
