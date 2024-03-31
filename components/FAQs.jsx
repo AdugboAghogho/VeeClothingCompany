@@ -32,9 +32,9 @@ const FAQs = () => {
 
             <div className="question__answer">
               <h4>{Ask.title}</h4>
-              <FaMinus className='uil uil-minus' />
               <p className="hero__subtitle" >{Ask.name}</p>
             </div>
+              <FaMinus className='uil uil-minus' />
           </article>
         ))}
       </div>
