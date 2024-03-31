@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './FAQs.css';
 import { Asks } from './../constants/data';
+import { FaPlus } from 'react-icons/fa';
 
 const FAQs = () => {
   const faqs = document.querySelectorAll('.faq');
@@ -26,11 +27,8 @@ const FAQs = () => {
         {Asks.map((Ask, index) => (
           <article key={index} className="faq">
             <div className="faq__icon" onClick={() => handleFAQToggle(index)}>
-              {/* <i
-                className={`uil ${
-                  expandedFAQs.includes(index) ? 'uil-minus' : 'uil-plus'
-                }`}
-              ></i> */}
+              <FaPlus />
+              {/* <FaMinus /> */}
             </div>
             <div className="question__answer">
               <h4>{Ask.title}</h4>
