@@ -27,8 +27,8 @@ const FAQs = () => {
         {Asks.map((Ask, index) => (
           <article key={index} className="faq">
             <div className="faq__icon">
-              <FaPlus />
-              {/* <FaMinus /> */}
+              <FaPlus className='uil uil-plus'/>
+              <FaMinus className='uil uil-minus' />
             </div>
             <div className="question__answer">
               <h4>{Ask.title}</h4>
