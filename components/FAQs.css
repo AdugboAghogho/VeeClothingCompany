@@ -4,8 +4,8 @@
 }
 
 .faqs__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -45,8 +45,8 @@
 @media screen and (max-width: 1024px) {
     .faqs__container {
         /* grid-template-columns: 2fr; */
-        display: flex;
-        fww
+        /* display: flex;
+        flex-wrap: wrap; */
     }
     
     .faq {
