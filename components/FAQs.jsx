@@ -26,11 +26,11 @@ const FAQs = () => {
         {Asks.map((Ask, index) => (
           <article key={index} className="faq">
             <div className="faq__icon" onClick={() => handleFAQToggle(index)}>
-              <i
+              {/* <i
                 className={`uil ${
                   expandedFAQs.includes(index) ? 'uil-minus' : 'uil-plus'
                 }`}
-              ></i>
+              ></i> */}
             </div>
             <div className="question__answer" aria-expanded={expandedFAQs.includes(index)}>
               <h4>{Ask.title}</h4>
