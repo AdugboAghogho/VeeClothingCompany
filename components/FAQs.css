@@ -44,7 +44,9 @@
 
 @media screen and (max-width: 1024px) {
     .faqs__container {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 2fr; */
+        display: flex;
+        fww
     }
     
     .faq {
