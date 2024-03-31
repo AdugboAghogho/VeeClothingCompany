@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './FAQs.css';
 import { Asks } from './../constants/data';
-import { FaPlus } from 'react-icons/fa';
+import { FaMinus, FaPlus } from 'react-icons/fa';
 
 const FAQs = () => {
   const faqs = document.querySelectorAll('.faq');
@@ -28,10 +28,11 @@ const FAQs = () => {
           <article key={index} className="faq">
             <div className="faq__icon">
               <FaPlus className='uil uil-plus'/>
-              <FaMinus className='uil uil-minus' />
             </div>
+
             <div className="question__answer">
               <h4>{Ask.title}</h4>
+              <FaMinus className='uil uil-minus' />
               <p className="hero__subtitle" >{Ask.name}</p>
             </div>
           </article>
