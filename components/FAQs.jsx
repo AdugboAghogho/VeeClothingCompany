@@ -23,7 +23,7 @@ const FAQs = () => {
   return (
     <div className=" faqs flex__center bg-blue-100">
       <h2 className="hero__title">FAQs</h2>
-      <div className="container1 faqs__container">
+      <div className="flex-center  faqs__container">
         {Asks.map((Ask, index) => (
           <article key={index} className="faq">
             <div className="faq__icon">
