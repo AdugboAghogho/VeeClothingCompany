@@ -18,7 +18,7 @@
     align-items: center;
     gap: 1.4rem;
     height: fit-content;
-    background: var(--color-primary);
+    background: rgba(65, 121, 158, 0.473);
     cursor: pointer;
 }
 
