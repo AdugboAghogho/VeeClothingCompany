@@ -32,7 +32,7 @@ const FAQs = () => {
                 }`}
               ></i> */}
             </div>
-            <div className="question__answer" aria-expanded={expandedFAQs.includes(index)}>
+            <div className="question__answer">
               <h4>{Ask.title}</h4>
               <p className="hero__subtitle" >{Ask.name}</p>
             </div>
