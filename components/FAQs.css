@@ -40,3 +40,14 @@
 .faq.open p {
     display: block;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .faqs__container {
+        grid-template-columns: 1fr;
+    }
+    
+    .faq {
+        padding: 1.5rem;
+    }
+}
