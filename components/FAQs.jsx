@@ -26,7 +26,7 @@ const FAQs = () => {
       <div className="container1 faqs__container">
         {Asks.map((Ask, index) => (
           <article key={index} className="faq">
-            <div className="faq__icon" onClick={() => handleFAQToggle(index)}>
+            <div className="faq__icon">
               <FaPlus />
               {/* <FaMinus /> */}
             </div>
