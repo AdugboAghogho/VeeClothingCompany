@@ -1,9 +1,3 @@
-/* ======================= FAQs ========================== */
-.container1 {
-    width: 80%;;
-    margin: 0 auto;
-}
-
 .faqs {
     /* background: var(--color-bg1); */
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
@@ -21,9 +15,8 @@
     align-items: center;
     gap: 1.4rem;
     height: fit-content;
-    background: blue;
+    background: var(--color-primary);
     cursor: pointer;
-    border-radius: 25px;
 }
 
 .faq h4 {
@@ -36,22 +29,11 @@
     font-size: 1.2rem;
 }
 
-/* .faq p {
+.faq p {
     margin-top: 0.8rem;
     display: none;
-} */
+}
 
 .faq.open p {
     display: block;
-}
-
-
-@media screen and (max-width: 1024px) {
-    .faqs__container {
-        grid-template-columns: 1fr;
-    }
-
-    .faq {
-        padding: 1.5rem;
-    }
 }

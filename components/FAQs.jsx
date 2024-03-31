@@ -3,20 +3,21 @@ import './FAQs.css';
 import { Asks } from './../constants/data';
 
 const FAQs = () => {
-  const [expandedFAQs, setExpandedFAQs] = useState([]);
+  const faqs = document.querySelectorAll('.faq');
 
-  useEffect(() => {
-    // Fetch FAQ data asynchronously here
-    // ...
-  }, []);
-
-  const handleFAQToggle = (faqIndex) => {
-    setExpandedFAQs((prevExpandedFAQs) =>
-      prevExpandedFAQs.includes(faqIndex)
-        ? prevExpandedFAQs.filter((index) => index !== faqIndex)
-        : [...prevExpandedFAQs, faqIndex]
-    );
-  };
+  faqs.forEach(faq => {
+      faq.addEventListener('click', () => {
+          faq.classList.toggle('open');
+  
+          // change icon
+          const icon = faq.querySelector('.faq__icon i');
+          if(icon.className === 'uil uil-plus'){
+              icon.className = "uil uil-minus"
+          } else {
+              icon.className = "uil uil-plus";
+          }
+      })
+  })
 
   return (
     <div className=" faqs flex__center bg-blue-100">
