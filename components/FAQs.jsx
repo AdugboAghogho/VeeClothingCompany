@@ -1,82 +1,45 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import './FAQs.css';
+import { Asks } from './../constants/data';
 
 const FAQs = () => {
-    // show/hide faq answer
+  const [expandedFAQs, setExpandedFAQs] = useState([]);
 
-const faqs = document.querySelectorAll('.faq');
+  useEffect(() => {
+    // Fetch FAQ data asynchronously here
+    // ...
+  }, []);
 
-faqs.forEach(faq => {
-    faq.addEventListener('click', () => {
-        faq.classList.toggle('open');
-
-        // change icon
-        const icon = faq.querySelector('.faq__icon i');
-        if(icon.className === 'uil uil-plus'){
-            icon.className = "uil uil-minus"
-        } else {
-            icon.className = "uil uil-plus";
-        }
-    })
-})
-
+  const handleFAQToggle = (faqIndex) => {
+    setExpandedFAQs((prevExpandedFAQs) =>
+      prevExpandedFAQs.includes(faqIndex)
+        ? prevExpandedFAQs.filter((index) => index !== faqIndex)
+        : [...prevExpandedFAQs, faqIndex]
+    );
+  };
 
   return (
-    <section class="faqs">
-        <h2>Frequntly Asked Question</h2>
-        <div class="container faqs__container">
-            
+    <div className=" faqs flex__center bg-blue-100">
+      <h2 className="hero__title">FAQs</h2>
+      <div className="container1 faqs__container">
+        {Asks.map((Ask, index) => (
+          <article key={index} className="faq">
+            <div className="faq__icon" onClick={() => handleFAQToggle(index)}>
+              <i
+                className={`uil ${
+                  expandedFAQs.includes(index) ? 'uil-minus' : 'uil-plus'
+                }`}
+              ></i>
+            </div>
+            <div className="question__answer" aria-expanded={expandedFAQs.includes(index)}>
+              <h4>{Ask.title}</h4>
+              <p className="hero__subtitle" >{Ask.name}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-            
-
-          
-            
-
-            
-
-           
-
-            <article class="faq">
-                <div class="faq__icon"><i class="uil uil-plus"></i></div>
-                <div class="question__answer">
-                    <h4>How do I know the right courses for me?</h4>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis! Tenetur, ut!
-                    </p>
-                </div>
-            </article>
-
-            <article class="faq">
-                <div class="faq__icon"><i class="uil uil-plus"></i></div>
-                <div class="question__answer">
-                    <h4>How do I know the right courses for me?</h4>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis! Tenetur, ut!
-                    </p>
-                </div>
-            </article>
-
-            <article class="faq">
-                <div class="faq__icon"><i class="uil uil-plus"></i></div>
-                <div class="question__answer">
-                    <h4>How do I know the right courses for me?</h4>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis! Tenetur, ut!
-                    </p>
-                </div>
-            </article>
-
-            <article class="faq">
-                <div class="faq__icon"><i class="uil uil-plus"></i></div>
-                <div class="question__answer">
-                    <h4>How do I know the right courses for me?</h4>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis! Tenetur, ut!
-                    </p>
-                </div>
-            </article>
-        </div>
-      </section>
-  )
-}
-
-export default FAQs
+export default FAQs;
