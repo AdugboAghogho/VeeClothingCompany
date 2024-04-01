@@ -4,21 +4,23 @@ import { Asks } from './../constants/data';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 
 const FAQs = () => {
-  const faqs = document.querySelectorAll('.faq');
+  const accordinoItems = document.querySelectorAll('.accordino-item');
 
-  faqs.forEach(faq => {
-      faq.addEventListener('click', () => {
-          faq.classList.toggle('open');
-  
-          // change icon
-          const icon = faq.querySelector('.faq__icon i');
-          if(icon.className === 'uil uil-plus'){
-              icon.className = "uil uil-minus"
-          } else {
-              icon.className = "uil uil-plus";
-          }
-      })
-  })
+accordinoItems.forEach(item => {
+  const title = item.querySelector('.accordino-title');
+  const content = item.querySelector('.accordino-content');
+
+  title.addEventListener('click', () => {
+    accordinoItems.forEach(otherItem => {
+      if (otherItem !== item) {
+        otherItem.classList.remove('active');
+      } else {
+        item.classList.toggle('active');
+      }
+    });
+  });
+});
+
 
   return (
     <div className=" faqs flex__center bg-blue-100">
