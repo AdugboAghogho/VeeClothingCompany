@@ -22,7 +22,7 @@ accordinoItems.forEach(item => {
 });
 
 
-  return (
+ return (
     <div className=" faqs flex__center bg-blue-100">
       <h1 className="hero__title pl-5">Faq</h1>
       <div className="flex-center  faqs__container">
@@ -33,15 +33,15 @@ accordinoItems.forEach(item => {
             </div>
 
             <div className="question__answer">
-              <h4>{Ask.title}</h4>
-              <p className="hero__subtitle" >{Ask.name}</p>
+              <h4 className='accordino-title'>{Ask.title}</h4>
+              <p className="hero__subtitle accordino-content" >{Ask.name}</p>
             </div>
               <FaMinus className='uil uil-minus' />
           </article>
         ))}
       </div>
     </div>
-  );
+  ); 
 };
 
 export default FAQs;
