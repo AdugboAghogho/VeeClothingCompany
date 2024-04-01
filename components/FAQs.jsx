@@ -32,6 +32,7 @@ accordinoItems.forEach(item => {
 
 
 
+
  return (
     <div className=" faqs flex__center bg-blue-100">
       <h1 className="hero__title pl-5">Faq</h1>
