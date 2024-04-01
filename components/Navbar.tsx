@@ -14,9 +14,9 @@ const Navbar = () => {
            <Image 
               src='/VCC.png'
               alt='Car Hub logo'
-              width={300}
+              width={320}
               height={18}
-              className='object-contain pr-20 mt-5 hover'
+              className='object-contain pt-6 pr-20 mt-5 hover'
               priority
            />
         </Link>
