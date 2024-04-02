@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './FAQs.css';
 import { Asks } from './../constants/data';
-import { FaMinus, FaPlus } from 'react-icons/fa';
+
 import Accordion from './Accordion';
 
 const FAQs = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./index.css";
+import { FaMinus, FaPlus } from 'react-icons/fa';
 
 const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
@@ -7,8 +7,8 @@ const Accordion = ({ title, content }) => {
   return (
     <div className="fag" key={Math.random()}>
       <div className="faq__icon">
-        <FaPlus className='uil uil-plus'/>
-       </div>
+        <FaPlus />
+      </div>
 
       <div className="header" onClick={() => setIsActive(!isActive)}>
         <div>{title}</div>
