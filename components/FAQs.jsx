@@ -23,7 +23,7 @@ export default FAQs;
 
 
 
-//     <FaPlus className='uil uil-plus'/>
+
 //   </div>
 
 //   <div className="question__answer">
