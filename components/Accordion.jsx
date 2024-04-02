@@ -7,11 +7,11 @@ const Accordion = ({ title, content }) => {
 
   return (
     <div className="header" key={Math.random()}>
-      <div className="faq__icon">
-        <FaPlus />
+      <div className="faq__icon mt-[5px]">
+        <FaPlus  />
       </div>
 
-      <div className="question__answer " onClick={() => setIsActive(!isActive)}>
+      <div className="question__answer" onClick={() => setIsActive(!isActive)}>
         <h4 className="text-[17px]">{title}</h4>
         <p className="mt-10 ">{isActive}</p>
         {isActive && <p className="text-[17px] text-black-100 font-light">{content}</p>}
