@@ -12,9 +12,9 @@ const Accordion = ({ title, content }) => {
       </div>
 
       <div className="question__answer " onClick={() => setIsActive(!isActive)}>
-        <h4>{title}</h4>
-        <p className="mt-10 text-[27px] text-black-100 font-light mt-5">{isActive}</p>
-        {isActive && <p className="">{content}</p>}
+        <h4 className="text-[17px]">{title}</h4>
+        <p className="mt-10 ">{isActive}</p>
+        {isActive && <p className="text-[17px] text-black-100 font-light">{content}</p>}
       </div>
 
       {/* <div className="content"> */}
