@@ -9,7 +9,7 @@ const FAQs = () => {
 
  return (
     <div className=" faqs flex__center bg-blue-100">
-      <h1 className="hero__title pl-5">Faq</h1>
+      <h1 className="hero__title p-10">FAQs</h1>
       <div className="flex-center  faqs__container">
         {Asks.map(({title, content}) => (
           <Accordion title={title} content={content}  />

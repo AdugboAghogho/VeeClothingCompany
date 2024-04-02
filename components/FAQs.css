@@ -1,5 +1,5 @@
 .faqs {
-    /* background: var(--color-bg1); */
+    background: var(--bg-light);
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 
@@ -9,20 +9,12 @@
     gap: 1rem;
 }
 
-.faq {
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.4rem;
-    height: fit-content;
-    background: rgba(65, 121, 158, 0.473);
-    border-radius: 25px;
-    cursor: pointer;
-}
+/* .fag {
+    margin-bottom: 3rem;
+} */
 
 .header {
-    padding: 2rem;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     width: 30rem;

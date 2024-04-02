@@ -1,7 +1,8 @@
 .the{
-  box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.377);
-  height: 100%;
-  background: var(--bg-dark);
+  /* box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.377); */
+  height: 200%;
+  /* background: var(--bg-dark); */
+  margin-top: 5rem;
 }
 .container {
   position: relative;
@@ -11,7 +12,6 @@
   min-height: 75vh;
   overflow: hidden;
   border-radius: 5rem;
-
 }
 
 .forms-container {
@@ -275,7 +275,7 @@ form.sign-in-form {
   form {
     padding: 0 1.5rem;
   }
-  
+
   .image {
     display: none;
   }
@@ -283,7 +283,6 @@ form.sign-in-form {
     padding: 0.5rem 1rem;
   }
   .container {
-    padding-top: 5rem;
     padding: 1.5rem;
   }
 
