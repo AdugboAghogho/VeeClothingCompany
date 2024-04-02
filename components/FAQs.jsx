@@ -25,7 +25,7 @@ export default FAQs;
 
 
 
-//     <h4 className='accordino-title'>{Ask.title}</h4>
+
 //     <p className="hero__subtitle accordino-content" >{Ask.name}</p>
 //   </div>
 //     <FaMinus className='uil uil-minus' />
