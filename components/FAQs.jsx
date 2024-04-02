@@ -22,7 +22,7 @@ const FAQs = () => {
 export default FAQs;
 
 
-//   <div className="faq__icon">
+
 //     <FaPlus className='uil uil-plus'/>
 //   </div>
 
