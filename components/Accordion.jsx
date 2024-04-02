@@ -6,7 +6,7 @@ const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="  header" key={Math.random()}>
+    <div className="header" key={Math.random()}>
       <div className="faq__icon">
         <FaPlus />
       </div>

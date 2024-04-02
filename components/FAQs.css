@@ -22,15 +22,16 @@
 }
 
 .header {
+    padding: 2rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 30rem;
     background: rgba(65, 121, 158, 0.473);
     border-radius: 25px;
     cursor: pointer;
     gap: 1.4rem;
-  }
-  
+}
 
 .faq h4 {
     font-size: 1rem;
