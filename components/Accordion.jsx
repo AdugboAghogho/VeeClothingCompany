@@ -1,24 +1,25 @@
 import React, { useState } from "react";
 import { FaMinus, FaPlus } from 'react-icons/fa';
+import './FAQs.css'
 
 const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="fag" key={Math.random()}>
+    <article className="fag" key={Math.random()}>
       <div className="faq__icon">
         <FaPlus />
       </div>
 
-      <div className="header" onClick={() => setIsActive(!isActive)}>
-        <div>{title}</div>
-        <p className="icon">{isActive ? "-" : "+"}</p>
+      <div className="question__answer" onClick={() => setIsActive(!isActive)}>
+        <h4>{title}</h4>
+        <p className="hero__subtitle">{isActive}</p>
+        {isActive && <p className="hero__subtitle">{content}</p>}
       </div>
 
-      <div className="content">
-        {isActive && <p className="card-info">{content}</p>}
-      </div>
-    </div>
+      {/* <div className="content"> */}
+      {/* </div> */}
+    </article>
   );
 };
 
