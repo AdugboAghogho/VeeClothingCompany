@@ -21,7 +21,7 @@ const FAQs = () => {
 
 export default FAQs;
 
-// <article key={index} className="faq">
+
 //   <div className="faq__icon">
 //     <FaPlus className='uil uil-plus'/>
 //   </div>
