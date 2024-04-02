@@ -12,6 +12,7 @@
 .faq {
     padding: 2rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 1.4rem;
     height: fit-content;
@@ -20,9 +21,16 @@
     cursor: pointer;
 }
 
-.faq:hover{
-    /* transform: scale(1.1); */
-}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    background: rgba(65, 121, 158, 0.473);
+    border-radius: 25px;
+    cursor: pointer;
+    gap: 1.4rem;
+  }
+  
 
 .faq h4 {
     font-size: 1rem;
@@ -51,7 +59,11 @@
         flex-wrap: wrap; */
     }
     
-    .faq {
+    /* .faq {
         padding: 1.5rem;
+    } */
+    .header {
+        padding: 1.5rem;
+        width: 15rem;
     }
 }

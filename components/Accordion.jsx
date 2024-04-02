@@ -6,12 +6,12 @@ const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <article className="fag" key={Math.random()}>
+    <div className="  header" key={Math.random()}>
       <div className="faq__icon">
         <FaPlus />
       </div>
 
-      <div className="question__answer" onClick={() => setIsActive(!isActive)}>
+      <div className="question__answer " onClick={() => setIsActive(!isActive)}>
         <h4>{title}</h4>
         <p className="hero__subtitle">{isActive}</p>
         {isActive && <p className="hero__subtitle">{content}</p>}
@@ -19,7 +19,7 @@ const Accordion = ({ title, content }) => {
 
       {/* <div className="content"> */}
       {/* </div> */}
-    </article>
+    </div>
   );
 };
 
