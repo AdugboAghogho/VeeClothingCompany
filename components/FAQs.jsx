@@ -27,5 +27,5 @@ export default FAQs;
 
 
 
-//     <FaMinus className='uil uil-minus' />
+
 // </article>
