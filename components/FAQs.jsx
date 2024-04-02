@@ -26,7 +26,6 @@ export default FAQs;
 
 //   </div>
 
-
 //     <h4 className='accordino-title'>{Ask.title}</h4>
 //     <p className="hero__subtitle accordino-content" >{Ask.name}</p>
 //   </div>
