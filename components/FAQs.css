@@ -9,8 +9,6 @@
     gap: 1rem;
 }
 
-
-
 .faq {
     padding: 2rem;
     display: flex;
@@ -23,7 +21,7 @@
 }
 
 .faq:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 .faq h4 {
