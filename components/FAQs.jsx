@@ -11,11 +11,9 @@ const FAQs = () => {
     <div className=" faqs flex__center bg-blue-100">
       <h1 className="hero__title p-10">FAQs</h1>
       <div className="flex-center  faqs__container">
-        {/* <div className='fah'> */}
-          {Asks.map(({title, content}) => (
-            <Accordion title={title} content={content}  />
-          ))}
-        {/* </div> */}
+        {Asks.map(({title, content}) => (
+          <Accordion title={title} content={content}  />
+        ))}
       </div>
 
       <div className='mb-[5rem]'>
