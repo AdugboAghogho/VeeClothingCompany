@@ -7,7 +7,7 @@ import Accordion from './Accordion';
 const FAQs = () => {
 
 
-  s
+
 
  return (
     <div className=" faqs flex__center bg-blue-100">
