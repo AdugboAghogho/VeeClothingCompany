@@ -8,7 +8,8 @@ const FAQs = () => {
 
 
 
-  
+  d
+
  
   
 
