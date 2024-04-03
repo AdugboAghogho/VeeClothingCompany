@@ -6,7 +6,7 @@ const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className=""  onClick={() => setIsActive(!isActive)}>
+    <div className="header"  onClick={() => setIsActive(!isActive)}>
       <div className="faq__icon ml-[30px] mt-[32px]">
         {isActive ? <FaMinus /> : <FaPlus />}
       </div>
