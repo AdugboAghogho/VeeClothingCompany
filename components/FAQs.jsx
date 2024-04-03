@@ -7,6 +7,7 @@ import Accordion from './Accordion';
 const FAQs = () => {
 
 
+
   
 
 
