@@ -6,26 +6,6 @@ import Accordion from './Accordion';
 
 const FAQs = () => {
 
-
-
-
-  
-
-
-
-
-
-
-
-
- 
-  
-
-
- 
-  
-
-
  return (
     <div className=" faqs flex__center bg-blue-100">
       <h1 className="hero__title p-10">FAQs</h1>

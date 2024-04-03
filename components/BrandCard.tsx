@@ -27,7 +27,7 @@ const BrandCard: React.FC<BrandCardProps> = ({ id, imgUrl, title, index, active,
     ) : (
       <div className="absolute bottom-0 p-8 flex justify-start w-full h-full  flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px]">
         <div
-          className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mt-[90px] mb-[6px]  `}
+          className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mt-[80px] mb-[6px]  `}
         >
           <Image
             src="/VCC1.png"
