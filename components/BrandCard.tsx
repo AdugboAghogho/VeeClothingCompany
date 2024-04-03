@@ -27,7 +27,7 @@ const BrandCard: React.FC<BrandCardProps> = ({ id, imgUrl, title, index, active,
     ) : (
       <div className="absolute bottom-0 p-8 flex justify-start w-full h-full  flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px]">
         <div
-          className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mt-[80px] mb-[6px]  `}
+          className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mt-[150px] mb-[6px]  `}
         >
           <Image
             src="/VCC1.png"
@@ -37,7 +37,7 @@ const BrandCard: React.FC<BrandCardProps> = ({ id, imgUrl, title, index, active,
             className="w-[500px] h-[500px] object-contain"
           />
         </div>
-        {/* <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
+        {/* <p  className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
           Enter Metaverse 
         </p> */}
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
