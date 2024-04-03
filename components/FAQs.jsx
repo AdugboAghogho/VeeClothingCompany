@@ -19,7 +19,7 @@ const FAQs = () => {
       </div>
 
       <div className='mb-[5rem]'>
-        <div className='mb-[5rem] h-96'>f</div>
+        <div className='mb-[5rem] h-[5rem]'></div>
       </div>
     </div>
   ); 

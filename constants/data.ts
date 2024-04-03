@@ -184,16 +184,16 @@ export const Asks = [
     title: 'How do I know the right courses for me?', 
     name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
   },
-  {
-    title: 'How do I know the right courses for me?', 
-    name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
-  },
-  {
-    title: 'How do I know the right courses for me?', 
-    name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
-  },
-  {
-    title: 'How do I know the right courses for me?', 
-    name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
-  },
+  // {
+  //   title: 'How do I know the right courses for me?', 
+  //   name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
+  // },
+  // {
+  //   title: 'How do I know the right courses for me?', 
+  //   name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
+  // },
+  // {
+  //   title: 'How do I know the right courses for me?', 
+  //   name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
+  // },
 ];
