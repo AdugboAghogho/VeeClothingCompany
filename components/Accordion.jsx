@@ -20,6 +20,7 @@ const Accordion = ({ title, content }) => {
   );
 
 
+
   
 };
 
