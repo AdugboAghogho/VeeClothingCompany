@@ -22,7 +22,7 @@ const Accordion = ({ title, content }) => {
 
 
   
-  d
+  
 
 
 
