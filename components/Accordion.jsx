@@ -36,6 +36,7 @@ const Accordion = ({ title, content }) => {
 
 
 
+
 };
 
 export default Accordion;
