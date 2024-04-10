@@ -24,10 +24,6 @@ const Accordion = ({ title, content }) => {
 
 
 
-  
-
-
-
 
 
 
