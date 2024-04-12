@@ -19,28 +19,6 @@ const Accordion = ({ title, content }) => {
     </div>    
   );
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
 };
 
 export default Accordion;

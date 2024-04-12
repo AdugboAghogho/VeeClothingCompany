@@ -1,3 +1,4 @@
+import { url } from 'inspector';
 import images from '../constants/images';
 
 export const cards = [
@@ -161,39 +162,27 @@ export const footerLinks = [
 
 export const Asks = [
   {
-    title: 'How do I know the right courses for me?', 
-    content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
+    title: 'What are Vee Clothing Company values.?', 
+    content: 'Vee Clothing Company emphasizes passion for their work and a commitment to providing high-quality, customized clothing.', 
   },
   {
-    title: 'How do I know the right courses for me?', 
-    content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
+    title: 'How long does it take to receive my custom-made clothing?', 
+    content: 'it takes 14 working days or less to receive your custom-made clothing', 
   },
   {
-    title: 'How do I know the right courses for me?', 
-    content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
+    title: 'What are the benefits of shopping at Vee Clothing Company?', 
+    content: 'Customized clothing to fit your unique style and preferences. High quality materials and near perfect tailoring. Passionate team dedicated to providing quality service', 
   },
   {
-    title: 'How do I know the right courses for me?', 
-    content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
+    title: 'What are Vee Clothing Company values?', 
+    content: 'Vee Clothing Company emphasizes passion for their work and a commitment to providing high-quality, bespoke clothing.', 
   },
   {
-    title: 'How do I know the right courses for me?', 
-    content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
+    title: 'Where is our shop located at?', 
+    content: 'We provide virtual services but can schedule physical meetups in Asaba & Lagos State. You can find more information about us on our social media accounts', 
   },
   {
-    title: 'How do I know the right courses for me?', 
-    name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
+    title: 'For more inquires about veeClothingCompany ', 
+    url: "https://wa.me/c/${2348103031020}",
   },
-  // {
-  //   title: 'How do I know the right courses for me?', 
-  //   name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
-  // },
-  // {
-  //   title: 'How do I know the right courses for me?', 
-  //   name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
-  // },
-  // {
-  //   title: 'How do I know the right courses for me?', 
-  //   name: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident assumenda, sunt sit quas aspernatur mollitia deserunt ex laudantium, excepturi atque asperiores ullam nesciunt esse alias quasi eveniet debitis!', 
-  // },
 ];
